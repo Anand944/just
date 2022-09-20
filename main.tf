@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 module "ResourceGroup"{
-    source = "../ResourceGroup"
+    source = "../../ResourceGroup"
     base_name = "rg989"
     location = "east us"
     
